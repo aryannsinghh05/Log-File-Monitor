@@ -3,7 +3,9 @@
 A web application that analyzes server log files and categorizes log messages into **INFO**, **WARNING**, and **ERROR** levels.
 The tool helps developers quickly understand issues inside large log files without manually scanning thousands of lines.
 
----
+## 🌐 Live Demo
+
+[View Live Project](https://log-file-monitor.onrender.com/)
 
 ## 🚀 Features
 
