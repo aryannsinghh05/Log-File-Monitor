@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROJECT</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="HEADER">
+        <h1>LOG FILE MONITOR</h1>
+
+        <form id="Uploadings">
+
+            <label for="uploaded_file">Select log file to upload:</label>
+
+            <input 
+                type="file"
+                id="uploaded_file"
+                name="uploaded_file"
+                accept=".log,.txt"
+                required
+            />
+            <button type="submit">ANALYZE</button>
+        </form>
+
+        <p id="loading">Analyzing...</p>
+
+            <div id="RESULTS">
+                <h3>ANALYSIS RESULTS</h3>
+                    <div id="count"></div>
+                    <div id="details"></div>
+            </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
